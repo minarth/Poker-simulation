@@ -1,0 +1,14 @@
+# Poker - statistics course
+
+This is code programmed for statistics course. Assignment was to check, if computer dealing and human dealing results in the same distribution of best hands. This programm deals given amount of hands and counts best hands.
+
+## Running the program
+Firstly create instance of the game
+	g = Game(n)
+where n is number of players. Than run the simulation via 
+	g.game(m)
+where m is number of dealings.
+
+## Reading output
+On the output you get two things. First is print of the list, with count of occured combinations. Next is how many times each player has won.
+
